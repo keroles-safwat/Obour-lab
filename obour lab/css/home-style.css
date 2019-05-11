@@ -1,0 +1,134 @@
+
+body{
+    background-image: url("../img/background.jpg");
+}
+header{
+    width: 1230px;
+    height: 120px;
+    border: solid 2pt black;
+    border-radius: 10px;
+    background-image: url(../img/lab.jpg) ;
+    background-repeat: no-repeat;
+    background-size:1230px 120px;
+}
+header p{
+    text-align: center;
+    color: #2196f3;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px black;
+    float: left;
+    padding-left: 50px;
+    font-size: 14pt;
+
+}
+
+/*ــــــــASIDEــــــــ*/
+aside{
+    float: right;
+    width: 75px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(220,255,220,0.80);
+    border: solid 2pt black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0 0 10px ;
+}
+
+aside button{
+    width: 60px;
+    padding-bottom: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+aside img{
+    width: 50px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+
+/*ــــــــTABLESــــــــ*/
+
+/*ــــــــpublic stylesــــــــ*/
+
+.main-div{
+    float: right;
+    width: 1100px;
+    margin-top: 15px;
+    background-color: rgba(255,255,255,0.50);
+    padding: 10px;
+    border: solid 2pt black;
+    border-radius: 10px;
+}
+
+table{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+    border: solid 2pt black;
+    border-radius: 10px;
+}
+
+caption{
+    font-size: 18pt;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+th, td{
+    border: solid 1pt black;
+}
+
+.statistics th{
+    width: 60px;
+}
+
+.th-date{
+    width: 150px;
+}
+
+.th-factory-name{
+    width: 500px;
+}
+
+.th-chemist{
+    width: 250px;
+}
+
+
+/*ــــــــSpecial styleــــــــ*/
+
+.results-not-completed{
+    background-color: #f4433640;
+}
+
+.results-not-completed caption{
+    color: #f44336;
+}
+
+.last-10-Samples{
+    background-color: #4caf5040;
+}
+
+.last-10-Samples caption{
+    color: #4caf50;
+}
+
+.factories-targeted-this-week{
+    background-color: #2196f340;
+}
+
+.factories-targeted-this-week caption{
+    color: #2196f3;
+}
+
+.statistics{
+    background-color: #607d8b40;
+}
+
+.statistics caption{
+    color: #607d8b;
+}
